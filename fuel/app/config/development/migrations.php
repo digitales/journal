@@ -13,6 +13,9 @@ return array(
 				4 => '005_delete_profile_from_people',
 				5 => '006_drop_people',
 				6 => '007_drop_entries',
+				7 => '008_create_entries_2',
+				8 => '009_create_categories',
+				9 => '010_create_category_entries',
 			),
 		),
 		'module' => 
