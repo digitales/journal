@@ -12,7 +12,7 @@ class Create_entries_2
 			'slug' => array('constraint' => 255, 'type' => 'varchar'),
 			'excerpt' => array('type' => 'text', 'null' => true),
 			'content' => array('type' => 'text', 'null' => true),
-			'published_at' => array('type' => 'text'),
+			'published_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 			'created_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 			'updated_at' => array('constraint' => 11, 'type' => 'int', 'null' => true),
 
